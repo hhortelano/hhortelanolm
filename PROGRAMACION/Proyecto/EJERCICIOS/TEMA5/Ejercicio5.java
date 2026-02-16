@@ -29,11 +29,17 @@ public class Ejercicio5 {
             System.out.print("Introduce un numero: ");
             int n = sc.nextInt();
 
+
+            // Para parar el programa si es negativo
             if (n < 0) {
                 break;
             }
 
+            //
             boolean encontrado = false;
+
+
+            // Busca el numero en el array
 
             for (int i = 0; i < numeros.length; i++) {
                 if (numeros[i] == n) {

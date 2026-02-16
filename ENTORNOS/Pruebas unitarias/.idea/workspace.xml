@@ -1,7 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f4c5dfc-8f43-4405-bef5-15852354e6f2" name="Changes" comment="" />
+    <list default="true" id="1f4c5dfc-8f43-4405-bef5-15852354e6f2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/Test/TestImpuestos.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/Test/TestImpuestos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LENGUAJES/26-1600x800.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LENGUAJES/591-1600x800.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LENGUAJES/786-1600x800.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LENGUAJES/INDEX.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LENGUAJES/Imagenes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LENGUAJES/alertas.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LENGUAJES/bages.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LENGUAJES/breadcrumb.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LENGUAJES/cards.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LENGUAJES/carrusel.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LENGUAJES/colapse.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LENGUAJES/contenedores.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LENGUAJES/css.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LENGUAJES/dropdowen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LENGUAJES/formulario.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LENGUAJES/js.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LENGUAJES/modal.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LENGUAJES/nav.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LENGUAJES/tablas.html" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,35 +36,35 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "SaB2400"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;SaB2400&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/DanielREJA/clase.git",
-    "accountId": "e3e872ac-c454-4c32-9e89-f2f719c46a41"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/DanielREJA/clase.git&quot;,
+    &quot;accountId&quot;: &quot;e3e872ac-c454-4c32-9e89-f2f719c46a41&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="39RObs7D18p2Ju8esSqvp1x3Qnd" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/dam1/Desktop/clase/ENTORNOS/Pruebas unitarias"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/dam1/Desktop/clase/ENTORNOS/Pruebas unitarias&quot;
   }
-}]]></component>
+}</component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="1f4c5dfc-8f43-4405-bef5-15852354e6f2" name="Changes" comment="" />
@@ -48,5 +74,16 @@
       <updated>1770655490728</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/untitled/Test/TestImpuestos.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
