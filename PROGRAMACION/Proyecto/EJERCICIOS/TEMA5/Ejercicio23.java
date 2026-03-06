@@ -1,5 +1,7 @@
+package TEMA5;
+
 public class Ejercicio23 {
-    static void main() {
+    static void main(String[] args) {
         String rutaCompleta = "/home/dam/Documents/UD05_Ejercicios.pdf";
 
         //Buscamos a partir de la ultima barra y el ultimo punto

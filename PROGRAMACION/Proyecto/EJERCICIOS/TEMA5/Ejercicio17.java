@@ -1,5 +1,7 @@
+package TEMA5;
+
 public class Ejercicio17 {
-    static void main() {
+    static void main(String[] args) {
 
     }
     public static String sinEspacios(String texto) {

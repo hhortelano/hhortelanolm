@@ -1,7 +1,9 @@
+package TEMA5;
+
 import java.util.Random;
 
 public class Ejercicio10 {
-    public static void main() {
+    public static void main(String[] args) {
         Random r = new Random();
 
         int[] numeros = new int[10];

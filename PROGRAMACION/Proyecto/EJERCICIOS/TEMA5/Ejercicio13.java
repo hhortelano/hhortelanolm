@@ -1,8 +1,10 @@
+package TEMA5;
+
 import java.util.Arrays;
 import java.util.Scanner;
 
 public class Ejercicio13 {
-    static void main() {
+    static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Dime cuantos nombre vas a añadir: ");
         int cantidad = sc.nextInt();

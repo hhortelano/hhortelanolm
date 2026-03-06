@@ -1,5 +1,7 @@
+package TEMA5;
+
 public class Ejercicio15 {
-    static void main() {
+    static void main(String[] args) {
         String texto = "Hola mundo";
 
         System.out.println(invertir(texto));
