@@ -18,7 +18,7 @@ public class demoTicket {
            double precio = sc.nextDouble();
            Ticket t1 = new Ticket(nombre, unidades, precio);
 
-       } while ();
+       } while (true);
 
 
 
