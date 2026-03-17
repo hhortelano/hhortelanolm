@@ -2,7 +2,11 @@ package TEMA6.Ejercicio1;
 import java.time.LocalDate;
 
 public class DemoPersonas {
+<<<<<<< HEAD
     static void main(String[] args) {
+=======
+    public static void main(String[] args) {
+>>>>>>> fca0f490013ec8df94508d5313b10b8172ed6fea
 
         // PERSONAS
 
@@ -46,6 +50,10 @@ public class DemoPersonas {
         System.out.println("Edad del alumno: " + alu1.calcularEdad() + " años.");
 
 
+<<<<<<< HEAD
         System.out.println(alu1.toString());
+=======
+        System.out.println(alu1);
+>>>>>>> fca0f490013ec8df94508d5313b10b8172ed6fea
     }
 }
