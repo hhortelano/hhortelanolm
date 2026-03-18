@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudio Dani</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="icon" href="/Pagina/imagenes/icons8-favicon.gif" type="image/x-icon">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <section>
+        <div class="container text-center">
+            <h1>ESTUDIO DANI</h1>
+        </div>
+
+        <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+            <nav class="navbar navbar-expand-lg ">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">Principal</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Alertas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="badge.html">Badges</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="breadcrump.html">Breadcrumb</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="cards.html">Cards</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Carrousel</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Collapse</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Dropdown</a>
+                            </li>
+                             <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Nav</a>
+                            </li>
+                             <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Navbar</a>
+                            </li>
+
+
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </nav>
+
+    </section>
+    
+  <div class="container py-4">
+        <div> 
+            <p>Para una alerta hay que poner varias clases, la principal es 'alert' para cambiar de color tienes las clases 'alert-primary(o otros)'</p>
+            <p>Luego para poder cerrarlas tienes que poner las clases 'alerts-dismissible' y crear un boton con clase 'btn-close' luego un aria-label="close" y por utlimo data-bs-dismiss="alert"</p>
+            <p>Por ultimo puedes poner tambien links a otros sitios en la alerta con un 'a' con clase alert-link </p>
+            <p>Aqui te dejo varios ejemplos:</p>
+        </div>
+
+
+
+
+        <div class="alert alert-primary alert-dismissible">
+            <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio, esse.! <a class="alert-link" href="#">Ir a Chocolate</a> </span>
+            <button class="btn-close"
+                    aria-label="Close"
+                    data-bs-dismiss="alert"></button>
+        </div>
+        <div class="alert alert-secondary  alert-dismissible">
+            <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio, esse.!</span>
+            <button class="btn-close"
+                    aria-label="Close"
+                    data-bs-dismiss="alert"></button>
+        </div>
+        <div class="alert alert-success alert-dismissible">
+            <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio, esse.!</span>
+            <button class="btn-close"
+                    aria-label="Close"
+                    data-bs-dismiss="alert"></button>
+        </div>
+        <div class="alert alert-warning alert-dismissible">
+            <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio, esse.!</span>
+            <button class="btn-close"
+                    aria-label="Close"
+                    data-bs-dismiss="alert"></button>
+        </div>
+        <div class="alert alert-danger alert-dismissible">
+            <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio, esse.!</span>
+            <button class="btn-close"
+                    aria-label="Close"
+                    data-bs-dismiss="alert"></button>
+        </div>
+        <div class="alert alert-info alert-dismissible">
+            <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio, esse.!</span>
+            <button class="btn-close"
+                    aria-label="Close"
+                    data-bs-dismiss="alert"></button>
+        </div>
+        <div class="alert alert-light alert-dismissible">
+            <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio, esse.!</span>
+            <button class="btn-close"
+                    aria-label="Close"
+                    data-bs-dismiss="alert"></button>
+        </div>
+        <div class="alert alert-dark alert-dismissible">
+            <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio, esse.!</span>
+            <button class="btn-close"
+                    aria-label="Close"
+                    data-bs-dismiss="alert"></button>
+        </div>
+
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
