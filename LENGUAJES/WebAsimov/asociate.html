@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="css.css">
+</head>
+
+<body>
+    <div class="container py-4">
+        <img src="../img/logoAsimovFans.png" alt="">
+        <div class="mt-3">
+            <nav class="nav">
+                <a class="nav-link text-secondary" aria-current="page" href="index.html">INICIO</a>
+                <a class="nav-link text-secondary  " href="leyes.html">LEYES</a>
+                <a class="nav-link text-secondary" href="datos.html">DATOS</a>
+                <a class="nav-link active text-danger" href="#">ASOCIATE</a>
+            </nav>
+        </div>
+    </div>
+    <div class="position-relative">
+        <!-- línea superior -->
+        <div class="position-absolute top-0 start-0 w-100 linea-azul"></div>
+
+        <!-- línea inferior -->
+        <div class="position-absolute bottom-0 start-0 w-100 linea-azul linea-invertida"></div>
+        <div class="container py-4" style="max-width: 720px;">
+            <h3 class="text-primary fw-bold mb-2">
+                    Formulario para hacerte socio
+                </h3>
+
+                <p class="small mb-4">
+                    Para hacerte socio de nuestro club de fans, por favor rellena los siguientes datos y nos
+                    pondremos en contacto contigo lo antes posible para terminar el proceso de inscripción.
+                </p>
+
+                <form>
+
+                    <!-- 1 Datos personales -->
+                    <div class="p-4 rounded mb-4" style="background-color:#e9f3fb;">
+
+                        <h6 class="fw-bold mb-1">1 Datos personales</h6>
+                        <p class="small text-muted mb-3">Todos los campos con * son obligatorios</p>
+
+                        <div class="row mb-2">
+                            <label class="col-sm-4 col-form-label">Nombre *</label>
+                            <div class="col-sm-8">
+                                <input type="text" class="form-control">
+                            </div>
+                        </div>
+
+                        <div class="row mb-2">
+                            <label class="col-sm-4 col-form-label">Primer apellido *</label>
+                            <div class="col-sm-8">
+                                <input type="text" class="form-control">
+                            </div>
+                        </div>
+
+                        <div class="row mb-2">
+                            <label class="col-sm-4 col-form-label">Segundo apellido</label>
+                            <div class="col-sm-8">
+                                <input type="text" class="form-control">
+                            </div>
+                        </div>
+
+                        <div class="row mb-2">
+                            <label class="col-sm-4 col-form-label">DNI o Pasaporte</label>
+                            <div class="col-sm-8">
+                                <input type="text" class="form-control" placeholder="DNI o Pasaporte">
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <label class="col-sm-4 col-form-label">Fecha de nacimiento</label>
+                            <div class="col-sm-8">
+                                <input type="text" class="form-control" placeholder="dd / mm / aaaa">
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- 2 Datos de contacto -->
+                    <div class="p-4 rounded mb-4" style="background-color:#e9f3fb;">
+
+                        <h6 class="fw-bold mb-3">2 Datos de contacto</h6>
+
+                        <div class="row mb-2">
+                            <label class="col-sm-4 col-form-label">Correo electrónico *</label>
+                            <div class="col-sm-8">
+                                <input type="email" class="form-control" placeholder="Correo electrónico">
+                            </div>
+                        </div>
+
+                        <div class="row mb-2">
+                            <label class="col-sm-4 col-form-label">Código postal *</label>
+                            <div class="col-sm-8">
+                                <input type="text" class="form-control">
+                            </div>
+                        </div>
+
+                        <div class="row mb-2">
+                            <label class="col-sm-4 col-form-label">Dirección Postal *</label>
+                            <div class="col-sm-8">
+                                <input type="text" class="form-control">
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <label class="col-sm-4 col-form-label">Población *</label>
+                            <div class="col-sm-8">
+                                <input type="text" class="form-control">
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- 3 Datos de inscripción -->
+                    <div class="p-4 rounded mb-4" style="background-color:#e9f3fb;">
+
+                        <h6 class="fw-bold mb-3">3 Datos de inscripción</h6>
+
+                        <div class="row mb-2">
+                            <label class="col-sm-4 col-form-label">Tipo *</label>
+                            <div class="col-sm-8">
+                                <select class="form-select">
+                                    <option>Senior</option>
+                                    <option>Junior</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="row mb-2">
+                            <label class="col-sm-4 col-form-label">Cuota *</label>
+                            <div class="col-sm-8">
+                                <select class="form-select">
+                                    <option>General - 5€/mes</option>
+                                    <option>Reducida - 3€/mes</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="row mb-3">
+                            <label class="col-sm-4 col-form-label">Periodicidad</label>
+                            <div class="col-sm-8">
+
+                                <div class="border rounded p-2">
+
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="periodicidad">
+                                        <label class="form-check-label">Trimestral</label>
+                                    </div>
+
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="periodicidad">
+                                        <label class="form-check-label">Semestral</label>
+                                    </div>
+
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="periodicidad">
+                                        <label class="form-check-label">Anual</label>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="row mb-4">
+                            <label class="col-sm-4 col-form-label">IBAN</label>
+                            <div class="col-sm-8">
+                                <input type="text" class="form-control" placeholder="Si no lo sabes, déjalo vacío">
+                            </div>
+                        </div>
+
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-danger px-5">
+                                ENVIAR
+                            </button>
+                        </div>
+
+                    </div>
+
+                </form>
+
+        </div>
+
+    </div>
+
+
+    <footer class="bg-light text-black text-center py-3">
+        <p class="mb-0">Actividad realizada por Daniel Remon Juan</p>
+        <p>Fotografia de la portada de <a href="#">Adam Muise</a> en <a href="#">Unsplash</a></p>
+        <img src="../img/creative-commons.png" alt="copyright">
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

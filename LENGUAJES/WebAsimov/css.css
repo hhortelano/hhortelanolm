@@ -1,19 +1,15 @@
-.itemnabvaractive {
-    color: black;
-}
-
-.linea-azul {
+.linea-azul{
     height: 6px;
     background: linear-gradient(to right, #3a78b8, #7fb3e6);
 }
 
-.linea-invertida {
+.linea-invertida{
     background: linear-gradient(to right, #7fb3e6, #3a78b8);
 }
-
-.encima {
+.superpuesto {
     position: absolute;
-    top: 200px;
-    left: 50px;
     width: 100px;
+    left: 50px;
+    top: 200px;
+    
 }
