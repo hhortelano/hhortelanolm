@@ -43,12 +43,11 @@ public class Persona {
     //  CONSTRUCTORES
 
 
-<<<<<<< HEAD
-=======
+
     public Persona() {
     }
 
->>>>>>> fca0f490013ec8df94508d5313b10b8172ed6fea
+
     public Persona(String nombre) {
         this.nombre = nombre;
     }
@@ -76,11 +75,8 @@ public class Persona {
 
     @Override
     public String toString() {
-<<<<<<< HEAD
         return "Persona [Nombre: " + nombre + ", Apellidos: " + apellidos + ", DNI: " + DNI + "]";
-=======
-      return "Persona [Nombre: " + nombre + ", Apellidos: " + apellidos + ", DNI: " + DNI + "]";
->>>>>>> fca0f490013ec8df94508d5313b10b8172ed6fea
+
     }
 
     public int calcularEdad() {

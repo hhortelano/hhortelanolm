@@ -36,7 +36,7 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Alertas</a>
+                                <a class="nav-link active" aria-current="page" href="alertas.html">Alertas</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link active" aria-current="page" href="badge.html">Badges</a>
@@ -48,10 +48,10 @@
                                 <a class="nav-link active" aria-current="page" href="cards.html">Cards</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="carousel.html">Carrousel</a>
+                                <a class="nav-link active" aria-current="page" href="#">Carrousel</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="collapse.html">Collapse</a>
+                                <a class="nav-link active" aria-current="page" href="#">Collapse</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link active" aria-current="page" href="#">Dropdown</a>
@@ -69,39 +69,19 @@
 
     </section>
 
-    <div class="container py-4">
-        <div>
-            <p>Para una alerta hay que poner varias clases, la principal es 'alert' para cambiar de color tienes las
-                clases 'alert-primary(o otros)'</p>
-            <p>Luego para poder cerrarlas tienes que poner las clases 'alerts-dismissible' y crear un boton con clase
-                'btn-close' luego un aria-label="close" y por utlimo data-bs-dismiss="alert"</p>
-            <p>Por ultimo puedes poner tambien links a otros sitios en la alerta con un 'a' con clase alert-link </p>
-            <p>Aqui te dejo varios ejemplos:</p>
+   <div class="container py-4">
+
+        <button class="btn btn-info" data-bs-toggle="collapse" data-bs-target="#collapse1">
+            Mostrar / Ocultar
+        </button>
+
+        <div class="mt-2 collapse" id="collapse1">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa praesentium odio, ducimus exercitationem alias accusamus, deleniti earum quam reprehenderit reiciendis sint perferendis labore maiores, delectus iste deserunt aliquam magni iusto?</p>
         </div>
-        <hr>
-        <div class="alert alert-primary"> Esta es una alerta normal</div>
-        <hr>
-        <div class="alert alert-secondary">Esta es una alerta con link <a href="#" class="alert-link">ejemplo</a></div>
-        <hr>
-        <div class="alert alert-success">
-            <h4 class="alert-heading">Esto es un alert con cabecera</h4>
-            <p>Este es el cuerpo</p>
-            <hr>
-            <p class="mb-0">Y esto el footerr</p>
-        </div>
-        <hr>
-        <div class="alert alert-dark alert-dismissible" id="alert">
-            Esto es un alert con cierre
-            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-        </div>
-        <img src="./imagenes/AlertaFoto.png" alt="alerta">
-        <hr>
-
-
-
-
 
     </div>
+
+
 
 
 
