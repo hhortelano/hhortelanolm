@@ -1,23 +1,21 @@
-package TEMA6.PraticaUd6;
+package TEMA6.Practica;
 
 import java.time.LocalDate;
 
-public  class Profesor extends Trabajador{
-    //  ATRIBUTOS
-    private String Especialidad;
+public class Profesor extends Trabajador{
+     // ATRIBUTOS
+    private String especialidad;
     private int horasLectivas;
 
-    //  GETTERS AND SETTERS
+    // GETTERS AND SETTES
 
     public String getEspecialidad() {
-        return Especialidad;
+        return especialidad;
     }
 
     public void setEspecialidad(String especialidad) {
-        Especialidad = especialidad;
+        this.especialidad = especialidad;
     }
-
-
 
     public int getHorasLectivas() {
         return horasLectivas;
@@ -27,19 +25,19 @@ public  class Profesor extends Trabajador{
         this.horasLectivas = horasLectivas;
     }
 
-    //  CONSTRUCTORES
+
+    //  CONTRUCTORES
 
     public Profesor() {
     }
 
-    public Profesor(String nombre, String apellidos, String DNI, LocalDate fechaIncorporacion, double salarioBase, String especialidad, int horasLectivas) {
-        super(nombre, apellidos, DNI, fechaIncorporacion, salarioBase);
-        Especialidad = especialidad;
+    public Profesor(String nombre, String apellidos, LocalDate fechaIncorporacion, String DNI, double salarioBase, String especialidad, int horasLectivas) {
+        super(nombre, apellidos, fechaIncorporacion, DNI, salarioBase);
+        this.especialidad = especialidad;
         this.horasLectivas = horasLectivas;
     }
 
-    //  METODOS
-
+    // METODOS
 
     @Override
     public double calcularSalario() {
@@ -50,6 +48,5 @@ public  class Profesor extends Trabajador{
     public String trabajar() {
         return "Imparto clase como " + getEspecialidad();
     }
-
 
 }

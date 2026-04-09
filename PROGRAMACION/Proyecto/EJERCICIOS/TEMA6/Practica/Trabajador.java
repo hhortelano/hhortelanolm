@@ -1,4 +1,4 @@
-package TEMA6.PraticaUd6;
+package TEMA6.Practica;
 
 import java.time.LocalDate;
 import java.time.Period;
@@ -11,7 +11,7 @@ public abstract class Trabajador {
     private LocalDate fechaIncorporacion;
     private double salarioBase;
 
-    // GETTERS AND SETTERS
+    //  GETTER AND SETTER
 
     public String getNombre() {
         return nombre;
@@ -21,8 +21,6 @@ public abstract class Trabajador {
         this.nombre = nombre;
     }
 
-
-
     public String getApellidos() {
         return apellidos;
     }
@@ -30,8 +28,6 @@ public abstract class Trabajador {
     public void setApellidos(String apellidos) {
         this.apellidos = apellidos;
     }
-
-
 
     public String getDNI() {
         return DNI;
@@ -41,8 +37,6 @@ public abstract class Trabajador {
         this.DNI = DNI;
     }
 
-
-
     public LocalDate getFechaIncorporacion() {
         return fechaIncorporacion;
     }
@@ -50,8 +44,6 @@ public abstract class Trabajador {
     public void setFechaIncorporacion(LocalDate fechaIncorporacion) {
         this.fechaIncorporacion = fechaIncorporacion;
     }
-
-
 
     public double getSalarioBase() {
         return salarioBase;
@@ -61,7 +53,9 @@ public abstract class Trabajador {
         this.salarioBase = salarioBase;
     }
 
-    //  CONSTRUCTORES
+
+    // CONSTRUCTOR
+
 
     public Trabajador() {
     }
@@ -75,15 +69,15 @@ public abstract class Trabajador {
         this.fechaIncorporacion = fechaIncorporacion;
     }
 
-    public Trabajador(String nombre, String apellidos, String DNI, LocalDate fechaIncorporacion, double salarioBase) {
+    public Trabajador(String nombre, String apellidos, LocalDate fechaIncorporacion, String DNI, double salarioBase) {
         this.nombre = nombre;
-        this.apellidos = apellidos;
-        this.DNI = DNI;
+        apellidos = apellidos;
         this.fechaIncorporacion = fechaIncorporacion;
+        this.DNI = DNI;
         this.salarioBase = salarioBase;
     }
 
-    //  METODOS
+    // METODOS
 
     public abstract double calcularSalario();
 
@@ -91,10 +85,9 @@ public abstract class Trabajador {
         return "Estoy trabajando en el centro educativo";
     }
 
-    public int antiguedad() {
-        LocalDate hoy = LocalDate.now();
-        Period añosAntiguedad = Period.between(this.fechaIncorporacion, hoy);
-        return añosAntiguedad.getYears();
+    public int antiguedad(){
+        Period aniosAntiguedad = Period.between(this.fechaIncorporacion, LocalDate.now());
+        return aniosAntiguedad.getYears();
     }
 
     @Override

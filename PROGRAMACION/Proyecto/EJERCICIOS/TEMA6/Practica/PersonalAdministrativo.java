@@ -1,14 +1,12 @@
-package TEMA6.PraticaUd6;
+package TEMA6.Practica;
 
 import java.time.LocalDate;
 
-public abstract class PersonalAdministrativo extends Trabajador {
+public class PersonalAdministrativo extends Trabajador{
     //  ATRIBUTOS
     private String departamento;
     private int nivel;
-
     //  GETTERS AND SETTERS
-
     public String getDepartamento() {
         return departamento;
     }
@@ -32,15 +30,13 @@ public abstract class PersonalAdministrativo extends Trabajador {
     public PersonalAdministrativo() {
     }
 
-    public PersonalAdministrativo(String nombre, String apellidos, String DNI, LocalDate fechaIncorporacion, double salarioBase, String departamento, int nivel) {
-        super(nombre, apellidos, DNI, fechaIncorporacion, salarioBase);
+    public PersonalAdministrativo(String nombre, String apellidos, LocalDate fechaIncorporacion, String DNI, double salarioBase, String departamento, int nivel) {
+        super(nombre, apellidos, fechaIncorporacion, DNI, salarioBase);
         this.departamento = departamento;
         this.nivel = nivel;
     }
 
     //  METODOS
-
-
     @Override
     public double calcularSalario() {
         return getSalarioBase() + (nivel * 15);
@@ -50,6 +46,4 @@ public abstract class PersonalAdministrativo extends Trabajador {
     public String trabajar() {
         return "Realizo tareas administrativas en " + departamento;
     }
-
-
 }
