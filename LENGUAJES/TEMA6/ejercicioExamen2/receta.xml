@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="receta.dtd" type="application/xml-dtd"?>
+<receta codigo="AB100" nombre="Macarrones" dificultad="facil" 
+ >
+    <ingredientes>
+        <ingrediente id="S001" tipo="especiado">
+            <nombre>Macarrones</nombre>
+            <cantidad>300</cantidad>
+            <unidad>gramos</unidad>
+        </ingrediente>
+        <ingrediente id="S002" tipo="basico">
+            <nombre>Tomate</nombre>
+            <cantidad>100</cantidad>
+            <unidad>ml</unidad>
+        </ingrediente>
+        <ingrediente id="S003" tipo="especiado">
+            <nombre>bacon a tiras</nombre>
+            <cantidad>200</cantidad>
+            <unidad>gramos</unidad>
+        </ingrediente>
+
+    </ingredientes>
+    <elaboracion>
+        <paso>Cocer</paso>
+        <paso>Freir Bacon</paso>
+        <paso>Echar tomate y bacon en los macarrones cocidos</paso>
+    </elaboracion>
+    <tiempo_preparacion>15</tiempo_preparacion>
+    <etiquetas>
+        <etiqueta tipo="rapida"></etiqueta>
+        <etiqueta tipo="sin_gluten"></etiqueta>
+        <etiqueta tipo="rapida"></etiqueta>
+    </etiquetas>
+    
+</receta>

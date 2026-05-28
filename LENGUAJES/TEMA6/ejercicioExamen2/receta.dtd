@@ -1,0 +1,23 @@
+<!ELEMENT receta (ingredientes,elaboracion,tiempo_preparacion,etiquetas)>
+<!ATTLIST receta codigo ID #REQUIRED
+                 nombre CDATA #REQUIRED
+                 dificultad (facil | media | dificl) #IMPLIED>
+                 
+
+<!ELEMENT ingredientes (ingrediente+)>
+<!ELEMENT ingrediente (nombre,cantidad,unidad)>
+<!ATTLIST ingrediente id ID #REQUIRED
+                      tipo (basico | especiado | guarnicion) #IMPLIED>
+
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT cantidad (#PCDATA)>
+<!ELEMENT unidad (#PCDATA)>
+
+<!ELEMENT elaboracion (paso+)>
+<!ELEMENT paso (#PCDATA)>
+
+<!ELEMENT tiempo_preparacion (#PCDATA)>
+
+<!ELEMENT etiquetas (etiqueta*)>
+<!ELEMENT etiqueta EMPTY >
+<!ATTLIST etiqueta tipo  CDATA #REQUIRED>

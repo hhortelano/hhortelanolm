@@ -21,7 +21,7 @@ const inicio = ref(0);
 
 const fin = ref(postsXPagina)
 
-const tamanoPost = computed(() => posts.value.length)
+
 
 const loading = ref(true)
 

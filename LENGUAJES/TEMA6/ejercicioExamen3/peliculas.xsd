@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="pelicula">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="actores">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="actor" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="nombre"></xs:element>
+                                        <xs:element name="apellidos"></xs:element>
+                                        <xs:element name="edad"></xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="codigo" type="xs:ID"/> 
+                                    <xs:attribute name="rol" type="xs:string"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="director"></xs:element>
+                <xs:element name="anio"></xs:element>
+                <xs:element name="duracion"></xs:element>
+                <xs:element name="sinopsis"></xs:element>
+                <xs:element name="generos">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="genero" maxOccurs="unbounded" minOccurs="0"></xs:element>
+                        </xs:sequence>
+                        
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+            <xs:attribute name="id" type="xs:ID"/>
+            <xs:attribute name="titulo" type="xs:string"/>
+            <xs:attribute name="clasificacion" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

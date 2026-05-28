@@ -24,4 +24,4 @@
         Siguiente {{ fin }}
         </button>
     </div>
-</template>
+</template> 

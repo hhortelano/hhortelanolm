@@ -25,12 +25,7 @@ import { computed, ref } from 'vue'
     }
 
     // Propiedades Computadas
-    const claseContador = computed( () =>{
-        if (contador.value === 0){
-            return 'zero'
-        }
-        return contador.value > 0 ? 'verde' : 'rojo'
-    })
+    
     const arrayFavoritos = ref([])
     const favoritos = ()=> {
         

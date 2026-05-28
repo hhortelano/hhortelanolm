@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pelicula id="ABC1234" titulo="Madagascar" clasificacion="ATP" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="peliculas.xsd">
+    <actores>
+        <actor codigo="A1" rol="protagonista">
+            <nombre></nombre>
+            <apellidos></apellidos>
+            <edad></edad>
+        </actor>
+        <actor codigo="A2" rol="extra">
+            <nombre></nombre>
+            <apellidos></apellidos>
+            <edad></edad>
+        </actor>
+    </actores>
+    <director></director>
+    <anio></anio>
+    <duracion></duracion>
+    <sinopsis></sinopsis>
+    <generos>
+        <genero nombre="Accion"></genero>
+        <genero nombre="Ciencia Ficcion"></genero>
+    </generos>
+</pelicula>

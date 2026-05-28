@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<libro isbn="8188888828" idioma="es" formato="tapa_dura" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="libro.xsd">
+    <autores>
+        <autor id="A001" rol="autor" >
+            <nombre>Alberto</nombre>
+            <apellidos>Gonazales</apellidos>
+            <nacionalidad>Es</nacionalidad>
+        </autor>
+        <autor id="A002" rol="coautor">
+            <nombre>Rosmar</nombre>
+            <apellidos>Panchi</apellidos>
+            <nacionalidad>Panchita</nacionalidad>
+        </autor>
+        <autor id="A003" rol="traductor">
+            <nombre>Josema</nombre>
+            <apellidos>Perez</apellidos>
+            <nacionalidad>Espa</nacionalidad>
+        </autor>
+
+    </autores>
+    <editorial>juanma</editorial>
+    <sinopsis>Esta bien</sinopsis>
+    <categoria nombre="Terror"></categoria>
+    <categoria nombre="Comedia"></categoria>
+    <categoria nombre="Thriller"></categoria>
+
+</libro>

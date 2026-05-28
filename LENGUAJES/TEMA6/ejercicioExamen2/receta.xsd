@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:simpleType name="tipocodigo">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[A-Za-z]{2}\d{3}"></xs:pattern>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="tipodificultad">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="facil"/>
+            <xs:enumeration value="media"/>
+            <xs:enumeration value="dificil"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="tipoTipo">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="basico"></xs:enumeration>
+            <xs:enumeration value="especiado"></xs:enumeration>
+            <xs:enumeration value="guarnicion"></xs:enumeration>
+        </xs:restriction>
+    </xs:simpleType>
+
+    
+
+
+    <xs:element name="receta">
+       <xs:complexType>
+        <xs:sequence>
+            <xs:element name="ingredientes">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="ingrediente" maxOccurs="unbounded" >
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element name="nombre" type="xs:string"></xs:element>
+                                    <xs:element name="cantidad" type="xs:integer"></xs:element>
+                                    <xs:element name="unidad" type="xs:string"></xs:element>
+                                </xs:sequence>
+                                <xs:attribute name="id" type="xs:ID"></xs:attribute>
+                                <xs:attribute name="tipo" type="tipoTipo" default="basico"></xs:attribute>
+                            </xs:complexType>
+                        </xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="elaboracion">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="paso" maxOccurs="unbounded" type="xs:string"></xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="tiempo_preparacion"></xs:element>
+            <xs:element name="etiquetas">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element  name="etiqueta" maxOccurs="unbounded" minOccurs="0">
+                            <xs:complexType>
+                                <xs:attribute name="tipo" type="xs:string"></xs:attribute>
+                            </xs:complexType>
+                        </xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+        <xs:attribute name="codigo" type="tipocodigo" use="required"></xs:attribute>
+        <xs:attribute name="nombre" type="xs:string" use="required"></xs:attribute>
+        <xs:attribute name="dificultad" type="tipodificultad" use="optional"></xs:attribute>
+    </xs:complexType>
+    </xs:element>
+</xs:schema>

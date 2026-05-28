@@ -1,0 +1,18 @@
+<!ELEMENT libro (autores,editorial,sinopsis,categoria*)>
+<!ATTLIST libro idioma (es | en | fr | de) #REQUIRED
+                formato (tapa_dura | tapa_blanda | ebook) #IMPLIED
+                isbn CDATA #REQUIRED>
+                
+<!ELEMENT autores (autor+)>
+<!ELEMENT autor (nombre,apellidos,nacionalidad)>
+<!ATTLIST autor id ID #REQUIRED
+                rol  (autor | coautor | traductor) #IMPLIED>
+
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT nacionalidad (#PCDATA)>
+
+<!ELEMENT editorial (#PCDATA)>
+<!ELEMENT sinopsis (#PCDATA)>
+<!ELEMENT categoria EMPTY>
+<!ATTLIST categoria nombre CDATA #REQUIRED>
