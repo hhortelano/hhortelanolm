@@ -79,7 +79,7 @@ getData()
         Siguiente {{ fin }}
         </button>
     </div>
-    <div class="contenedor-cards">
+    <div class="d-flex">
         <CardPersonaje v-for="personaje in personajes.slice(inicio, fin)" 
     :nombre="personaje.name" 
     :especie="personaje.species"
