@@ -1,64 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ESTUDIO</title>
-    <!-- CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <title>Estudio</title>
     <link rel="stylesheet" href="styles.css">
-
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
-
-    <!-- FUENTES -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-
 </head>
-
 <body>
-    <div class="container py-4">
-        <div class="container text-center">
-            <h1>Web de Estudio</h1>
-        </div>
-        <div class="container">
-            <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#">Navbar</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Features</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Pricing</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-        </div>
+    <p>parrafo</p>
+    <i>curisva</i>
+    <mark>subrayar</mark>
+    <b>negrita</b>
+    <u> Subralla</u>
+    <del>Tacha</del>
 
+    <h2>Tablas</h2>
+    
+    <div>
+        <table border="1" width="50%" >
+        <tr>
+            <th>Lunes</th>
+            <th>Martes</th>
+            <th>Miercoles</th>
+            <th>Jueves</th>
+            <th>Viernes</th>
+        </tr>
+        <tr>
+            <td>mates</td>
+            <td>mates</td>
+            <td colspan="2">mates</td>
+            <td>mates</td>
+        </tr>
+        <tr>
+            <td rowspan="3">Lengua</td>
+            <td colspan="2">Ingles</td>
+            
+            <td>Lengua</td>
+            <td>E.Fisica</td>
+        </tr>
+        <tr>
+            
+            <td rowspan="2">Fisica</td>
+            <td>Caballo</td>
+            <td colspan="2" rowspan="2">Ye</td>
+            
+        </tr>
+        <tr>
+            
+            
+            <td>Almendra</td>
+            
+            
+        </tr>
+    </table>
+    </div>
+    <h2>Listas</h2>
+    <ul>
+        <li>Pascual</li>
+        <li>Pascual</li>
+        <li>Pascual</li>
+        <li>Pascual</li>
+    </ul>
+    <ul style="list-style: circle;">
+        <li>Pascual</li>
+        <li>Pascual</li>
+        <li>Pascual</li>
+        <li>Pascual</li>
+    </ul>
+    <ol>
+        <li>Pascual</li>
+        <li>Pascual</li>
+        <li>Pascual</li>
+        <li>Pascual</li>
+    </ol>
+    <ol type="A" start="7">
+        <li>Pascual</li>
+        <li>Pascual</li>
+        <li>Pascual</li>
+        <li>Pascual</li>
+    </ol>
+    <ol start="7" reversed>
+        <li>Pascual</li>
+        <li>Pascual</li>
+        <li>Pascual</li>
+        <li>Pascual</li>
+    </ol>
+     
+    <h2>Formularios</h2>
+    <form action="">
+        <fieldset>
+            <legend>Formulario</legend>
+            <label for="1">Hola</label>
+            <input type="text">
+            <label for="2">Email</label>
+            <input type="email" name="email" id="email" block>
+            <br>
+            <label for="2">Radius</label>
+        </fieldset>
+        
+    </form>
 
+    <h2>Cajas Grid</h2>
+    <div class="contenedor">
+        <div class="item1">1</div>
+        <div>2</div>
+        <div>3</div>
+        <div class="item4">4</div>
+        <div>5</div>
+        <div class="item6">6</div>
+        <div>7</div>
+        <div class="item8">8</div>
+        <div>9</div>
+        <div>10</div>
+        <div>11</div>
+        <div>12</div>
+        
     </div>
 
+    <h2>Cajas d-flex</h2>
 
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-        crossorigin="anonymous"></script>
 </body>
-
+<footer></footer>
 </html>

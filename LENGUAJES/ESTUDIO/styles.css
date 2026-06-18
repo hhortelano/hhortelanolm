@@ -1,3 +1,49 @@
 body {
-    font-family: "Bebas Neue", sans-serif;
+    background-image: url(./f3aab59205096db473216ffa444ddc4a.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
 }
+
+.contenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 120px 120px 120px 120px;
+    gap: 5px;
+    background-color: beige;
+}
+div{
+    border: solid 2px black;
+}
+
+.item1 {
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+    
+}
+
+.item4 {
+    grid-column: 5 / 6;
+    grid-row: 1 / 3;
+}
+
+.item6 {
+    grid-column: 2 / 4;
+    grid-row: 2 / 3;
+}
+.item8 {
+    grid-column: 1 / 4;
+    grid-row: 3 / 5;
+}
+.item1:hover {
+    background-color: brown;
+}
+
+.item4:active {
+    background-color: blue;
+}
+
+
+
+
+

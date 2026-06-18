@@ -37,14 +37,14 @@ const resetear = () => {
 const resultados = ref([])
 
 const guardar = () => {
-  if (contador1.value === 0 && contador2.value === 0) {
-    return
-  } else {
-    resultados.value.push('Resultado final: Local ' + contador1.value + ' - ' + contador2.value + ' Visitante')
-  }
+    if (contador1.value === 0 && contador2.value === 0) {
+        return
+    } else {
+        resultados.value.push('Resultado final: Local ' + contador1.value + ' - ' + contador2.value + ' Visitante')
+    }
 
-  contador1.value = 0
-  contador2.value = 0
+    contador1.value = 0
+    contador2.value = 0
 }
 </script>
 
@@ -89,8 +89,9 @@ const guardar = () => {
 
         </div>
         <div class="row mt-5 text-start">
-            <h1>Resultados Finales</h1>
-            <p v-for="resultado in resultados">{{ resultado }}</p>
+            <ul class="list-group">
+                <li v-for="resultado in resultados" class="list-group-item">{{resultado}}</li>
+            </ul>
         </div>
     </div>
 
